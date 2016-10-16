@@ -1,0 +1,10 @@
+#!/bin/bash
+TERMINAL="/usr/bin/terminator"
+NEWS="/usr/bin/newsbeuter"
+ELINKS="/usr/bin/elinks"
+TWIT="/usr/bin/turses"
+
+$TERMINAL -p day -T "newsbueter" -e $NEWS &
+$TERMINAL -T "ELinks" -e $ELINKS &
+$TWIT
+
